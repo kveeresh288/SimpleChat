@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start New Chat</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="/newchat.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Create New Chat</h3>
+
+        <form method="POST" action="/chats">
+            <h3>Enter Your Name</h3>
+            <input type="text" placeholder="Who are You Bruh" name="from">
+
+            <h3>Your Message</h3>
+            <input type="text" placeholder="Type your msg here" name="msg">
+
+            <h3>Enter Receiver Name</h3>
+            <input type="text" placeholder="Type Receiver Name" name="to">
+
+            <hr>
+            <button>Create Chat</button>
+        </form>
+    </div>
+</body>
+</html>
